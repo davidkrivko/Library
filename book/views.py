@@ -9,7 +9,7 @@ from book.serializers import (
 
 
 class BookViewSet(viewsets.ModelViewSet):
-    queryset = Book.objects.all()
+    queryset = Book.objects.prefetch_related("author")
     serializer_class = BookSerializer
 
     def get_serializer_class(self):
