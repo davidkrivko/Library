@@ -98,7 +98,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'libraryDB',
+            'NAME': 'LibraryDB',
             'USER': 'admin',
             'PASSWORD': 'admin',
             'HOST': 'localhost',
