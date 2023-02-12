@@ -29,6 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     "127.0.0.1",
+    "159.65.112.137",
 ]
 
 INTERNAL_IPS = [
